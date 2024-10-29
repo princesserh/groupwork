@@ -10,5 +10,6 @@ public enum ClothingStyle {
     STREETWEAR,
     PREPPY,
     GRUNGE,
-    MINIMALIST
+    MINIMALIST,
+    WEDDING
 }

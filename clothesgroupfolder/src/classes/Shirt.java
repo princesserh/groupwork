@@ -3,17 +3,17 @@ package classes;
 public class Shirt extends Clothes {
 
     private int length;
-    private ClothingStyle style;
 
-    public ClothingStyle getStyle() {
-        return style;
+    private int sleeveLength;
+
+    public int getSleeveLength() {
+        return sleeveLength;
     }
 
-    public void setStyle(ClothingStyle style) {
-        this.style = style;
+    public void setSleeveLength(int sleeveLength) {
+        this.sleeveLength = sleeveLength;
     }
 
-    
     public int getLength() {
         return length;
     }
