@@ -2,8 +2,12 @@ package classes;
 
 public class Trousers extends Clothes {
 
-    private int legLength;
+    public Trousers(int legLength){
+        this.setLegLength(15);
+    }
 
+
+    private int legLength;
 
     public int getLegLength() {
         return legLength;
