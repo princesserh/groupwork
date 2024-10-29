@@ -1,4 +1,4 @@
 package classes;
 
-public class Skirt {
+public class Skirt extends Clothes {
 }
