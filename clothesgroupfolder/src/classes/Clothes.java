@@ -4,7 +4,7 @@ public abstract class Clothes {
     private ClothingMaterial material;
     private ClothingColor color;
     private ClothingStyle style;
-    private int size;
+    // private size
 
 
     public ClothingMaterial getMaterial() {
@@ -30,5 +30,9 @@ public abstract class Clothes {
 
     public void setStyle(ClothingStyle style) {
         this.style = style;
+    }
+
+    public String giveClothingInfo(){
+        return "There is currently no information";
     }
 }

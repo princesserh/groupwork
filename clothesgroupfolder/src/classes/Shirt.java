@@ -10,8 +10,7 @@ public class Shirt extends Clothes {
         return sleeveLength;
     }
 
-    public void setSleeveLength(int sleeveLength) {
-        this.sleeveLength = sleeveLength;
+    public void setSleeveLength(int sleeveLength) {this.sleeveLength = sleeveLength;
     }
 
     public int getLength() {
@@ -20,5 +19,10 @@ public class Shirt extends Clothes {
 
     public void setLength(int length) {
         this.length = length;
+    }
+
+    @Override
+    public String giveClothingInfo(){
+        return "This item is a shirt";
     }
 }
