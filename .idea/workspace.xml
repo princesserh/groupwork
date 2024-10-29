@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52ad7f87-5985-4d73-93ec-bb8698d76de0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clothesgroupfolder/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/clothesgroupfolder/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clothesgroupfolder/src/classes/Clothes.java" beforeDir="false" afterPath="$PROJECT_DIR$/clothesgroupfolder/src/classes/Clothes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clothesgroupfolder/src/classes/Shirt.java" beforeDir="false" afterPath="$PROJECT_DIR$/clothesgroupfolder/src/classes/Shirt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clothesgroupfolder/src/classes/Dress.java" beforeDir="false" afterPath="$PROJECT_DIR$/clothesgroupfolder/src/classes/Dress.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +29,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/code/lbg-grads/week2/Car-Demo",
+    "last_opened_file_path": "C:/code/gitpractice/2910",
     "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
