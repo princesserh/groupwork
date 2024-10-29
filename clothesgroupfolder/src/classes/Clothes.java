@@ -4,7 +4,7 @@ public abstract class Clothes {
     private ClothingMaterial material;
     private ClothingColor color;
     private ClothingStyle style;
-    // private size
+    private int size;
 
 
     public ClothingMaterial getMaterial() {
