@@ -1,6 +1,6 @@
 package classes;
 
-public class Trousers extends Clothes {
+public class Trousers extends Clothes implements IWashable {
     public Trousers(int legLength){
         this.setLegLength(15);
     }
@@ -18,5 +18,16 @@ public class Trousers extends Clothes {
     @Override
     public String giveClothingInfo() {
         return "These are trousers";
+    }
+
+
+    @Override
+    public String handWash(){
+        return "Trousers are being hand washed";
+    }
+
+    @Override
+    public String machineWash(){
+        return "Trousers are being machine washed";
     }
 }
