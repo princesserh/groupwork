@@ -14,4 +14,9 @@ public class Trousers extends Clothes {
     public void setLegLength(int legLength) {
         this.legLength = legLength;
     }
+
+    @Override
+    public String giveClothingInfo() {
+        return "These are trousers";
+    }
 }

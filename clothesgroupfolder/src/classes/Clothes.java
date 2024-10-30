@@ -32,7 +32,5 @@ public abstract class Clothes {
         this.style = style;
     }
 
-    public String giveClothingInfo(){
-        return "There is currently no information";
-    }
+    public abstract String giveClothingInfo();
 }
