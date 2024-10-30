@@ -20,7 +20,14 @@ public class Main {
             System.out.println(c.giveClothingInfo());
         }
 
+        System.out.println();
+
         System.out.println(shirt1.handWash());
         System.out.println(skirt1.machineWash());
+        IWashable[] washables = {shirt1, trousers1, shirt2, dress1, skirt1};
+        for (IWashable wash: washables){
+            System.out.println(wash.handWash());
+            System.out.println(wash.machineWash());
+        }
     }
 }
