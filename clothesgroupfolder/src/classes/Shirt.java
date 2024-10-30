@@ -1,6 +1,6 @@
 package classes;
 
-public class Shirt extends Clothes {
+public class Shirt extends Clothes implements IWashable {
 
     private int length;
 
@@ -24,5 +24,15 @@ public class Shirt extends Clothes {
     @Override
     public String giveClothingInfo(){
         return "This item is a shirt";
+    }
+
+    @Override
+    public String handWash(){
+        return "Shirt is being hand washed";
+    }
+
+    @Override
+    public String machineWash(){
+        return "Shirt is being machine washed";
     }
 }

@@ -15,8 +15,11 @@ public class Main {
 
         Clothes[] clothes = {shirt1, trousers1, shirt2, dress1, skirt1};
         for (Clothes c: clothes){
-            //System.out.println(c);
+            System.out.println(c);
+            //runs specialised class method instead of generalised class
             System.out.println(c.giveClothingInfo());
         }
+
+        System.out.println(shirt1.handWash());
     }
 }
