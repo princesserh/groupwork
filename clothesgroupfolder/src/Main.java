@@ -21,5 +21,6 @@ public class Main {
         }
 
         System.out.println(shirt1.handWash());
+        System.out.println(skirt1.machineWash());
     }
 }
